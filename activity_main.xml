@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="100dp"
+        android:background="@drawable/idu" />
+
+    <TextView
+        android:id="@+id/txt_counter"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ground"
+        android:gravity="center"
+        android:textColor="@color/text"
+        android:textSize="50sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="@string/txt_stupeni"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/text" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/button"
+        android:onClick="onClickBtnAddStupeni"
+        android:text="@string/btn_Stupeni"
+        android:textColor="@color/text" />
+
+</LinearLayout>

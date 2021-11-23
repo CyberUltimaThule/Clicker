@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PreodolenieVershini</string>
+    <string name="txt_stupeni">ступеней</string>
+    <string name="btn_Stupeni">Cледующая ступенька</string>
+</resources>
